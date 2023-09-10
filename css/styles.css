@@ -1,0 +1,43 @@
+:root {
+    --accent-color: #2F303A;
+    --main-color: #FFFFFF
+}
+section,footer {
+    color: var(--accent-color);
+}
+.studio {
+    list-style: none;
+    font-size: 25px;
+}
+.web {
+    color: #2196F3;
+    list-style: none;
+    font-size: 25px;
+}
+.studio-two {
+    color: white;
+    list-style: none;
+    font-size: 25px;
+}
+section > ul {
+    margin: 0;
+}
+.list {
+    list-style-type: none;
+}
+.job {
+    color: #757575;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+.section {
+    background-color: #2F303A;
+}
+a[href="mailto:info@devstudio.com"] {
+    color: rgba (255, 255, 255, 0.6);
+}
+a[href="tel:+380961111111"] {
+    color: rgba (255, 255, 255, 0.6);
+}
