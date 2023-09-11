@@ -1,6 +1,8 @@
 :root {
     --accent-color: #2F303A;
     --main-color: #FFFFFF
+    --add-color: #F5F4FA
+    --bg-color: #FFFFFF
 }
 section,footer {
     color: var(--accent-color);
@@ -22,8 +24,11 @@ section,footer {
 section > ul {
     margin: 0;
 }
-.list {
+ul {
     list-style-type: none;
+}
+ul ~ p {
+    font-size: 15px;
 }
 .job {
     color: #757575;
