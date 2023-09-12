@@ -1,8 +1,6 @@
 :root {
     --accent-color: #2F303A;
     --main-color: #FFFFFF
-    --add-color: #F5F4FA
-    --bg-color: #FFFFFF
 }
 section,footer {
     color: var(--accent-color);
