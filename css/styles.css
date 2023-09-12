@@ -27,9 +27,6 @@ section > ul {
 ul {
     list-style-type: none;
 }
-ul ~ p {
-    font-size: 15px;
-}
 .job {
     color: #757575;
 }
