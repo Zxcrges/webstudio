@@ -1,94 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <p class="logo"><span class="logo-accent">Web</span>Studio</p>
+      <nav class="nav">
+        <ul class="list nav-list">
+          <li class="nav-item">Студія</li>
+          <li class="nav-item">Портфоліо</li>
+          <li class="nav-item">Контакти</li>
+        </ul>
+      </nav>
+      <ul class="list-link">
+        <li class="link-item">
+          <a href="mailto:info@devstudio.com" class="item-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="link-item">
+          <a href="tel:+380961111111" class="item-link">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
     <main class="main">
-        <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-btn">Замовити послугу</button>
-        </section>
-        <section class="advantages">
-            <ul class="list advantages-list">
-                <li class="advantages-item">
-                    <h3 class="advantages-item-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="advantages-item-text">
-                        Ідейні міркування, і навіть початок повсякденної роботи з
-                        формування позиції.
-                    </p>
-                </li>
-                <li class="advantages-item">
-                    <h3 class="advantages-item-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="advantages-item-text">
-                        Завдання організації, особливо рамки і місце навчання кадрів тягне
-                        у себе.
-                    </p>
-                </li>
-                <li class="advantages-item">
-                    <h3 class="advantages-item-subtitle">ПЛАНУВАННЯ</h3>
-                    <p class="advantages-item-text">
-                        Так само консультація з широким активом значною мірою зумовлює.
-                    </p>
-                </li>
-                <li class="advantages-item">
-                    <h3 class="advantages-item-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="advantages-item-text">
-                        Значимість цих проблем настільки очевидна, що реалізація планових
-                        завдань.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section class="performance">
-            <h2 class="performance-title">Чим ми займаємося</h2>
-            <ul class="Performance-list">
-                <li class="performance-item"><img src="./images/doing_img1.jpg" alt="tablet" class="performance-item-img" /></li>
-                <li class="performance-item"><img src="./images/doing_img2.jpg" alt="phone" class="performance-item-img" /></li>
-                <li class="performance-item"><img src="./images/doing_img3.jpg" alt="colors" class="performance-item-img" /></li>
-            </ul>
-        </section>
-        <section class="workers">
-            <h2 class="workers-title">Наша команда</h2>
-            <ul class="workers-list">
-                <li class="workers-item">
-                    <img src="./images/worker_img1.jpg" alt="Product Designer" class="workers-item-img"/>
-                    <h3 class="workers-item-subtitle">Ігор Дем'яненко</h3>
-                    <p class="workers-item-text">Product Designer</p>
-                </li>
-                <li class="workers-item">
-                    <img src="./images/worker_img2.jpg" alt="Frontend Developer" class="workers-item-img"/>
-                    <h3 class="workers-item-subtitle">Ольга Рєпіна</h3>
-                    <p class="workers-item-text">Frontend Developer</p>
-                </li>
-                <li class="workers-item">
-                    <img src="./images/worker_img3.jpg" alt="Marketing" class="workers-item-img"/>
-                    <h3 class="workers-item-subtitle">Микола Тарасов</h3>
-                    <p class="workers-item-text">Marketing</p>
-                </li>
-                <li class="workers-item">
-                    <img src="./images/worker_img4.jpg" alt="UI Designer" class="workers-item-img"/>
-                    <h3 class="workers-item-subtitle">Михайло Єрмаков</h3>
-                    <p class="workers-item-text">UI Designer</p>
-                </li>
-            </ul>
-        </section>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-btn">Замовити послугу</button>
+      </section>
+      <section class="advantages">
+        <ul class="list advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-item-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="advantages-item-text">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-item-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="advantages-item-text">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-item-subtitle">ПЛАНУВАННЯ</h3>
+            <p class="advantages-item-text">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-item-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="advantages-item-text">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="performance">
+        <h2 class="performance-title">Чим ми займаємося</h2>
+        <ul class="Performance-list">
+          <li class="performance-item">
+            <img
+              src="./images/doing_img1.jpg"
+              alt="tablet"
+              class="performance-item-img"
+            />
+          </li>
+          <li class="performance-item">
+            <img
+              src="./images/doing_img2.jpg"
+              alt="phone"
+              class="performance-item-img"
+            />
+          </li>
+          <li class="performance-item">
+            <img
+              src="./images/doing_img3.jpg"
+              alt="colors"
+              class="performance-item-img"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="workers">
+        <h2 class="workers-title">Наша команда</h2>
+        <ul class="workers-list">
+          <li class="workers-item">
+            <img
+              src="./images/worker_img1.jpg"
+              alt="Product Designer"
+              class="workers-item-img"
+            />
+            <h3 class="workers-item-subtitle">Ігор Дем'яненко</h3>
+            <p class="workers-item-text">Product Designer</p>
+          </li>
+          <li class="workers-item">
+            <img
+              src="./images/worker_img2.jpg"
+              alt="Frontend Developer"
+              class="workers-item-img"
+            />
+            <h3 class="workers-item-subtitle">Ольга Рєпіна</h3>
+            <p class="workers-item-text">Frontend Developer</p>
+          </li>
+          <li class="workers-item">
+            <img
+              src="./images/worker_img3.jpg"
+              alt="Marketing"
+              class="workers-item-img"
+            />
+            <h3 class="workers-item-subtitle">Микола Тарасов</h3>
+            <p class="workers-item-text">Marketing</p>
+          </li>
+          <li class="workers-item">
+            <img
+              src="./images/worker_img4.jpg"
+              alt="UI Designer"
+              class="workers-item-img"
+            />
+            <h3 class="workers-item-subtitle">Михайло Єрмаков</h3>
+            <p class="workers-item-text">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
-        <p class="footer-logo"><span class="footer-logo-accent">Web</span>Studio</p>
-        <address class="address">
-            <a href="https://goo.gl/maps/gxwUuq6DSH6itYMH8" target="_blank" class="address-item-link">м. Київ, пр-т Лесі Українки, 26</a><br />
-            <a href="mailto:info@devstudio.com" class="address-item-link">info@devstudio.com</a><br />
-            <a href="tel:+380961111111" class="address-item-link">+38 096 111 11 11</a>
-        </address>
+      <p class="footer-logo">
+        <span class="footer-logo-accent">Web</span>Studio
+      </p>
+      <address class="address">
+        <a
+          href="https://goo.gl/maps/gxwUuq6DSH6itYMH8"
+          target="_blank"
+          class="address-item-link"
+          >м. Київ, пр-т Лесі Українки, 26</a
+        ><br />
+        <a href="mailto:info@devstudio.com" class="address-item-link"
+          >info@devstudio.com</a
+        ><br />
+        <a href="tel:+380961111111" class="address-item-link"
+          >+38 096 111 11 11</a
+        >
+      </address>
     </footer>
-</body>
-
+  </body>
 </html>

@@ -1,46 +1,23 @@
-/* :root {
-    --accent-color: #2196F3;
-    --main-color: #212121
-    --add-color: #F5F4FA 
-    --add-white:
-    --bg-color: #2F303A
+:root {
+    --accent-color:#2F303A;
+        --main-color:#F5F4FA;
+        --add-color:#2196F3;
 }
-section,footer {
-    color: var(--accent-color);
+body {
+    font-family: Roboto;
 }
-.studio {
-    list-style: none;
-    font-size: 25px;
+.logo-accent {
+    color: var(--add-color);
+        font-family: Raleway;
+        font-size: 26px;
+        letter-spacing: 0.78px;
 }
-.web {
-    color: #2196F3;
-    list-style: none;
-    font-size: 25px;
+.logo {
+        font-family: Raleway;
+        font-size: 26px;
+        letter-spacing: 0.78px;
 }
-.studio-two {
-    color: white;
-    list-style: none;
-    font-size: 25px;
+.nav {
+    width: 1600px;
+        height: 80px;
 }
-section > ul {
-    margin: 0;
-}
-ul {
-    list-style-type: none;
-}
-.job {
-    color: #757575;
-}
-h1 {
-    color: white;
-    font-size: 30px;
-}
-.section {
-    background-color: #2F303A;
-}
-a[href="mailto:info@devstudio.com"] {
-    color: rgba (255, 255, 255, 0.6);
-}
-a[href="tel:+380961111111"] {
-    color: rgba (255, 255, 255, 0.6);
-} */
