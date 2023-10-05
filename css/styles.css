@@ -1,34 +1,30 @@
 :root {
-    --accent-color:#2F303A;
+    --accent-color:#2196F3;
         --main-color:#F5F4FA;
-        --add-color:#2196F3;
+        --add-color:#2F303A;
 }
 body {
     font-family: Roboto;
-}
-.logo-accent {
-    color: var(--add-color);
-        font-family: Raleway;
-        font-size: 26px;
-        letter-spacing: 0.78px;
 }
 .logo {
         font-family: Raleway;
         font-size: 26px;
         letter-spacing: 0.78px;
 }
-.nav {
-    width: 1600px;
-        height: 80px;
+.logo-accent {
+    color: var(--accent-color);
+        font-family: Raleway;
+        font-size: 26px;
+        letter-spacing: 0.78px;
 }
-.nav-item {
+.nav-item-link {
     color: #212121;
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.28px;
 }
-.nav-item :hover {
-    color: var(--add-color);
+.nav-item-link :hover {
+    color: var(--accent-color);
 }
 .link-item {
     color: #757575;
@@ -37,12 +33,7 @@ body {
         letter-spacing: 0.28px;
 }
 .link-item :hover {
-    color: var(--add-color);
-}
-.hero {
-    width: 1600px;
-        height: 600px;
-        background: #2F303A;
+    color: var(--accent-color);
 }
 .hero-title {
 color: #FFF;
@@ -55,12 +46,13 @@ color: #FFF;
 }
 .hero-btn {
     border-radius: 4px;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.advantages-item {
-    width: 270px;
-        height: 98px;
+        background: var(--accent-color);
+        color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.96px;
 }
 .advantages-item-subtitle {
         font-size: 14px;
@@ -72,13 +64,23 @@ color: #FFF;
         line-height: 24px;
         letter-spacing: 0.42px;
 }
-.performance {
-    width: 1170px;
-        height: 386px;
-}
 .performance-title {
         text-align: center;
         font-size: 36px;
         letter-spacing: 1.08px;
 }
-
+.footer-logo {
+    color: #FFF;
+        font-family: Raleway;
+        font-size: 26px;
+        letter-spacing: 0.78px;
+}
+.footer-logo-accent {
+    color: var(--accent-color);
+}
+.address-item-link {
+    color: rgba(255, 255, 255, 0.60);
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+}
