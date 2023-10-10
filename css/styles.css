@@ -82,3 +82,24 @@ color: #FFF;
         line-height: 24px;
         letter-spacing: 0.42px;
 }
+.navigation-btn {
+    color: var(--add-color);
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+}
+.navigation-btn :hover {
+    color: #FFF;
+    background: var(--accent-color);
+}
+.navigation-item-subtitle {
+    color: var(--add-color);
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 1.08px;
+}
+.navigation-item-text {
+    color: #757575;
+        line-height: 1.87;
+        letter-spacing: 0.48px;
+}
