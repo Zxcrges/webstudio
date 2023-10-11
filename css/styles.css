@@ -21,16 +21,16 @@ body {
         font-weight: 500;
         letter-spacing: 0.28px;
 }
-.nav-item-link :hover {
+.nav-item-link:hover {
     color: var(--accent-color);
 }
-.contact-item {
+.contact-item-link {
     color: #757575;
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.28px;
 }
-.contact-item :hover {
+.contact-item-link:hover {
     color: var(--accent-color);
 }
 .hero-title {
