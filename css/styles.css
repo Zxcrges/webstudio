@@ -23,6 +23,7 @@ li {
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.28px;
+        text-decoration: none;
 }
 .nav-item-link:hover {
     color: var(--accent-color);
@@ -32,29 +33,30 @@ li {
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.28px;
+        text-decoration: none;
 }
 .contact-item-link:hover {
     color: var(--accent-color);
+}
+.hero {
+    background: var(--bg-color);
 }
 .hero-title {
 color: #FFF;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    background: var(--bg-color);
 }
 .hero-btn {
     border-radius: 4px;
         background: var(--accent-color);
         color: #FFF;
-            font-family: Roboto;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 30px;
-            letter-spacing: 0.96px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.96px;
 }
 .advantages-item-subtitle {
         color: var(--add-color);
@@ -64,10 +66,11 @@ color: #FFF;
 .advantages-item-text {
     color: #757575;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.42px;
 }
 .performance-title {
+        color: var(--add-color);
         text-align: center;
         font-size: 36px;
         letter-spacing: 1.08px;
@@ -111,8 +114,12 @@ color: #FFF;
 .address-item-link {
     color: rgba(255, 255, 255, 0.60);
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.42px;
+        text-decoration: none;
+}
+.address-item-link:first-child {
+    color: #FFF;
 }
 .filters-btn {
     border-radius: 4px;
@@ -121,6 +128,11 @@ color: #FFF;
         font-weight: 500;
         line-height: 1.62;
         letter-spacing: 0.48px;
+}
+.filters-btn:hover {
+        background: #2196F3;
+        color: #FFF;
+        cursor: pointer;
 }
 .projects-btn {
     color: var(--add-color);
