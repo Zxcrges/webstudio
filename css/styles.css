@@ -49,7 +49,10 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -80,6 +83,8 @@ img {
 }
 .hero {
   background: var(--bg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: #fff;
@@ -89,6 +94,7 @@ img {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 .hero-btn {
   border-radius: 4px;
@@ -97,6 +103,10 @@ img {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
+}
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 118px;
 }
 .advantages-item-subtitle {
   color: var(--add-color);
@@ -109,11 +119,17 @@ img {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
+.performance {
+  padding-bottom: 108px;
+}
 .performance-title {
   color: var(--add-color);
   text-align: center;
   font-size: 36px;
   letter-spacing: 1.08px;
+}
+.workers {
+  padding-bottom: 108px;
 }
 .workers-title {
   color: var(--add-color);
@@ -138,6 +154,8 @@ img {
 }
 .footer {
   background: var(--bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: #fff;
@@ -161,6 +179,10 @@ img {
 .address-item-link:first-child {
   color: #fff;
 }
+.filters-list {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 .filters-btn {
   border-radius: 4px;
   background: #f5f4fa;
@@ -173,6 +195,9 @@ img {
   background: #2196f3;
   color: #fff;
   cursor: pointer;
+}
+.projects {
+  padding-bottom: 94px;
 }
 .projects-btn {
   color: var(--add-color);
