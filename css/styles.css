@@ -1,199 +1,197 @@
 :root {
-    --accent-color:#2196F3;
-        --main-color:#F5F4FA;
-        --add-color:#212121;
-        --bg-color:#2F303A;
+  --accent-color: #2196f3;
+  --main-color: #f5f4fa;
+  --add-color: #212121;
+  --bg-color: #2f303a;
 }
 body {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 h1,
 h2,
 h3,
 h4,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-li {
-    list-style-type: none;
-}
+
 .logo {
-        font-family: Raleway;
-        font-size: 26px;
-        letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.78px;
 }
 .logo-accent {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .nav-item-link {
-    color: var(--add-color);
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.28px;
-        text-decoration: none;
+  color: var(--add-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
 }
 .nav-item-link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .contact-item-link {
-    color: #757575;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.28px;
-        text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
 }
 .contact-item-link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .hero {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
 .hero-title {
-color: #FFF;
-    text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 .hero-btn {
-    border-radius: 4px;
-        background: var(--accent-color);
-        color: #FFF;
-        font-weight: 700;
-        line-height: 1.87;
-        letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: var(--accent-color);
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
 }
 .advantages-item-subtitle {
-        color: var(--add-color);
-        font-size: 14px;
-        letter-spacing: 0.42px;
+  color: var(--add-color);
+  font-size: 14px;
+  letter-spacing: 0.42px;
 }
 .advantages-item-text {
-    color: #757575;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.42px;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 .performance-title {
-        color: var(--add-color);
-        text-align: center;
-        font-size: 36px;
-        letter-spacing: 1.08px;
+  color: var(--add-color);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1.08px;
 }
 .workers-title {
-    color: var(--add-color);
-        text-align: center;
-        font-size: 36px;
-        line-height: normal;
-        letter-spacing: 1.08px;
+  color: var(--add-color);
+  text-align: center;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 .workers-item-subtitle {
-    color: var(--add-color);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.48px;
+  color: var(--add-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .workers-item-text {
-    color: #757575;
-        text-align: center;
-        line-height: normal;
-        letter-spacing: 0.48px;
+  color: #757575;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .footer {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
 .footer-logo {
-    color: #FFF;
-        font-family: Raleway;
-        font-size: 26px;
-        letter-spacing: 0.78px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.78px;
 }
 .footer-logo-accent {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 .address-item-link {
-    color: rgba(255, 255, 255, 0.60);
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.42px;
-        text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
 }
 .address-item-link:first-child {
-    color: #FFF;
+  color: #fff;
 }
 .filters-btn {
-    border-radius: 4px;
-        background: #F5F4FA;
-    color: var(--add-color);
-        font-weight: 500;
-        line-height: 1.62;
-        letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  color: var(--add-color);
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
 }
 .filters-btn:hover {
-        background: #2196F3;
-        color: #FFF;
-        cursor: pointer;
+  background: #2196f3;
+  color: #fff;
+  cursor: pointer;
 }
 .projects-btn {
-    color: var(--add-color);
-        font-size: 16px;
-        line-height: 1.62;
-        letter-spacing: 0.48px;
+  color: var(--add-color);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
 }
 .projects-btn :hover {
-    color: #FFF;
-    background: var(--accent-color);
+  color: #fff;
+  background: var(--accent-color);
 }
 .projects-item-subtitle {
-    color: var(--add-color);
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 1.08px;
+  color: var(--add-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
 }
 .projects-item-text {
-    color: #757575;
-        line-height: 1.87;
-        letter-spacing: 0.48px;
+  color: #757575;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
 }
