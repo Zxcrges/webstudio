@@ -50,8 +50,8 @@ img {
   padding: 0 15px;
 }
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 .logo {
   font-family: Raleway;
@@ -106,7 +106,7 @@ img {
 }
 .advantages {
   padding-top: 94px;
-  padding-bottom: 118px;
+  padding-bottom: 94px;
 }
 .advantages-item-subtitle {
   color: var(--add-color);
@@ -120,7 +120,7 @@ img {
   letter-spacing: 0.42px;
 }
 .performance {
-  padding-bottom: 108px;
+  padding-bottom: 94px;
 }
 .performance-title {
   color: var(--add-color);
@@ -129,7 +129,8 @@ img {
   letter-spacing: 1.08px;
 }
 .workers {
-  padding-bottom: 108px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .workers-title {
   color: var(--add-color);
@@ -179,7 +180,7 @@ img {
 .address-item-link:first-child {
   color: #fff;
 }
-.filters-list {
+.projects {
     padding-top: 94px;
     padding-bottom: 50px;
 }
