@@ -129,7 +129,7 @@ img {
   letter-spacing: 1.08px;
 }
 .workers {
-  padding-top: 94px;
+  padding-top: 94чёpx;
   padding-bottom: 94px;
 }
 .workers-title {
@@ -182,7 +182,7 @@ img {
 }
 .projects {
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 .filters-btn {
   border-radius: 4px;
@@ -196,9 +196,6 @@ img {
   background: #2196f3;
   color: #fff;
   cursor: pointer;
-}
-.projects {
-  padding-bottom: 94px;
 }
 .projects-btn {
   color: var(--add-color);
