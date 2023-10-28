@@ -56,7 +56,6 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  gap: 92px;
 }
 .logo {
   font-family: Raleway;
@@ -166,7 +165,7 @@ img {
   font-size: 36px;
   line-height: normal;
   letter-spacing: 1.08px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .workers-list {
   display: flex;
@@ -197,7 +196,7 @@ img {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer-logo-accent {
   color: var(--accent-color);
@@ -211,7 +210,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.42px;
   text-decoration: none;
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+  display: inline-block;
+}
+.address-item-link:kast-child {
+  margin-bottom: 0;
 }
 .address-item-link:first-child {
   color: #fff;
@@ -224,7 +227,7 @@ img {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding: 50px;
+  margin-bottom: 50px;
 }
 .filters-btn {
   border-radius: 4px;
