@@ -252,6 +252,12 @@ img {
   color: #fff;
   background: var(--accent-color);
 }
+.projects-list {
+  display: block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 .projects-item-subtitle {
   color: var(--add-color);
   font-size: 18px;
