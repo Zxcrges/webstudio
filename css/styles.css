@@ -213,7 +213,7 @@ img {
     margin-bottom: 8px;
   display: inline-block;
 }
-.address-item-link:kast-child {
+.address-item-link:last-child {
   margin-bottom: 0;
 }
 .address-item-link:first-child {
