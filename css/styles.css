@@ -242,26 +242,11 @@ img {
   color: #fff;
   cursor: pointer;
 }
-.projects-btn {
-  color: var(--add-color);
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.48px;
-}
-.projects-btn :hover {
-  color: #fff;
-  background: var(--accent-color);
-}
 .projects-list {
-  display: block;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
     justify-content: center;
-}
-.projects-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
+    gap: 30px;
 }
 .projects-item-subtitle {
   color: var(--add-color);
