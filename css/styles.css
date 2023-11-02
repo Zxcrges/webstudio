@@ -257,6 +257,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    justify-content: center;
+}
+.projects-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .projects-item-subtitle {
   color: var(--add-color);
