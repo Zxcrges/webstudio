@@ -127,6 +127,8 @@ img {
 .advantages-list {
   display: flex;
   gap: 30px;
+}
+.advantages-item {
   flex-basis: calc(100% - 3 * 30px / 4);
 }
 .advantages-item-subtitle {
@@ -248,7 +250,9 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-      flex-basis: calc(100% - 2 * 30px / 3);
+}
+.projects-item {
+  flex-basis: calc(100% - 2 * 30px / 3);
 }
 .projects-item-subtitle {
   color: var(--add-color);
