@@ -233,17 +233,21 @@ img {
   margin-bottom: 50px;
 }
 .filters-btn {
+  min-width: 73px;
+  padding: 6px 22px;
   border-radius: 4px;
   background: #f5f4fa;
   color: var(--add-color);
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
+  border: none;
 }
 .filters-btn:hover {
   background: #2196f3;
   color: #fff;
   cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .projects-list {
     display: flex;
