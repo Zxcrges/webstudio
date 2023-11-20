@@ -62,6 +62,7 @@ img {
   font-size: 26px;
   letter-spacing: 0.78px;
   margin-right: 93px;
+  color: #000;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -121,6 +122,10 @@ img {
   letter-spacing: 0.96px;
   display: block;
   margin: 0 auto;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .advantages {
   padding-top: 94px;
@@ -204,7 +209,8 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .workers-item-wrapper {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .workers-item-subtitle {
   color: var(--add-color);
@@ -220,7 +226,6 @@ img {
   text-align: center;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-bottom: 30px;
 }
 .footer {
   background: var(--bg-color);
@@ -290,15 +295,27 @@ img {
 }
 .projects-item {
   flex-basis: calc((100% - 2 * 30px) / 3);
+  border: 1px solid #EEE;
+  background: #FFF;
+}
+.projects-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.projects-item:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .projects-item-subtitle {
   color: var(--add-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 1.08px;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 .projects-item-text {
   color: #757575;
   line-height: 1.87;
   letter-spacing: 0.48px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
