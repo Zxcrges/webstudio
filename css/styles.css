@@ -114,7 +114,6 @@ img {
   margin-bottom: 30px;
 }
 .hero-btn {
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
   font-weight: 700;
@@ -122,8 +121,7 @@ img {
   letter-spacing: 0.96px;
   display: block;
   margin: 0 auto;
-  width: 216px;
-  height: 50px;
+  padding: 10px 32px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -219,7 +217,7 @@ img {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .workers-item-text {
   color: #757575;
@@ -304,18 +302,18 @@ img {
 .projects-item:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+.projects-item-wrapper {
+  padding: 20px 24px;
+}
 .projects-item-subtitle {
   color: var(--add-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 1.08px;
-  padding-top: 20px;
-  padding-left: 24px;
+  margin-bottom: 4px;
 }
 .projects-item-text {
   color: #757575;
   line-height: 1.87;
   letter-spacing: 0.48px;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
