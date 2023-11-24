@@ -124,6 +124,7 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 .advantages {
   padding-top: 94px;
@@ -257,6 +258,7 @@ img {
 }
 .address-item-link:first-child {
   color: #fff;
+  margin-top: 20px;
 }
 .projects {
     padding-top: 94px;
