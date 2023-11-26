@@ -97,7 +97,6 @@ img {
   color: var(--accent-color);
 }
 .hero {
-  background: var(--bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(
