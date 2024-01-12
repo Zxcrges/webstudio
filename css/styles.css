@@ -229,6 +229,27 @@ img {
   line-height: normal;
   letter-spacing: 0.48px;
 }
+.workers-icon-item {
+  display: flex;
+  justify-content: space-around;
+}
+.workers-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.workers-soc-icon {
+  fill: rgba(175, 177, 184, 1);
+}
+.workers-icon-link:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+.workers-icon-link:hover .workers-soc-icon {
+  fill: white;
+}
 .footer {
   background: var(--bg-color);
   padding-top: 60px;
