@@ -245,10 +245,22 @@ img {
   fill: rgba(175, 177, 184, 1);
 }
 .workers-icon-link:hover {
-  background-color: rgba(33, 150, 243, 1);
+  background-color: var(--accent-color);
 }
 .workers-icon-link:hover .workers-soc-icon {
   fill: white;
+}
+.company-subtitle {
+  color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding-top: 94px;
+}
+.company-item-icon {
+  fill: #AFB1B8;
 }
 .footer {
   background: var(--bg-color);
