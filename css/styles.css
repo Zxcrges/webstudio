@@ -81,7 +81,7 @@ img {
 .nav-item-link:hover {
   color: var(--accent-color);
 }
-.contacts-list {
+.contact-list {
   display: flex;
   gap: 50px;
   margin-left: auto;
@@ -263,6 +263,10 @@ img {
 .workers-icon-link:hover .workers-soc-icon {
   fill: white;
 }
+.company {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .company-subtitle {
   color: #212121;
     text-align: center;
@@ -270,21 +274,20 @@ img {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .company-list {
   display: flex;
   gap: 30px;
 }
-.company-item {
+.company-item-link {
+  display: flex;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 32px;
   padding-left: 32px;
-  margin-bottom: 94px;
 }
 .company-item-icon {
   fill: #AFB1B8;
@@ -315,6 +318,7 @@ img {
   text-decoration: none;
     margin-bottom: 8px;
   display: inline-block;
+  margin-right: 70px;
 }
 .address-item-link:last-child {
   margin-bottom: 0;
@@ -322,6 +326,15 @@ img {
 .address-item-link:first-child {
   color: #fff;
   margin-top: 20px;
+}
+.footer .container {
+  display: flex;
+}
+.footer-div {
+  padding-top: 10px;
+}
+.social-media-div {
+  padding-top: 15px;
 }
 .social-media-text {
   color: #FFF;
@@ -354,15 +367,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
-.footer-div {
-  padding-top: 10px;
-}
-.footer .container {
-  display: flex;
-}
-.social-media-div {
-  padding-top: 10px;
 }
 .projects {
     padding-top: 94px;
