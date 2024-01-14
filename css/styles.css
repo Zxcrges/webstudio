@@ -78,13 +78,13 @@ img {
   letter-spacing: 0.28px;
   text-decoration: none;
 }
+.nav-item-link:hover {
+  color: var(--accent-color);
+}
 .contacts-list {
   display: flex;
   gap: 50px;
   margin-left: auto;
-}
-.nav-item-link:hover {
-  color: var(--accent-color);
 }
 .contact-item-link {
   color: #757575;
@@ -95,6 +95,13 @@ img {
 }
 .contact-item-link:hover {
   color: var(--accent-color);
+}
+.contact-item-icon {
+  fill: #757575;
+}
+.contact-item-icon:hover,
+.contact-item-icon:focus {
+  fill: var(--accent-color);
 }
 .hero {
   padding-top: 200px;
@@ -229,6 +236,12 @@ img {
   line-height: normal;
   letter-spacing: 0.48px;
 }
+.workers-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 16px;
+}
 .workers-icon-item {
   display: flex;
   justify-content: space-around;
@@ -258,6 +271,20 @@ img {
     line-height: normal;
     letter-spacing: 1.08px;
     padding-top: 94px;
+    padding-bottom: 50px;
+}
+.company-list {
+  display: flex;
+  gap: 30px;
+}
+.company-item {
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin-bottom: 94px;
 }
 .company-item-icon {
   fill: #AFB1B8;
@@ -295,6 +322,47 @@ img {
 .address-item-link:first-child {
   color: #fff;
   margin-top: 20px;
+}
+.social-media-text {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.social-media-icon {
+  fill: #FFFFFF;
+}
+.social-media-link {
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.10);
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-div {
+  padding-top: 10px;
+}
+.footer .container {
+  display: flex;
+}
+.social-media-div {
+  padding-top: 10px;
 }
 .projects {
     padding-top: 94px;
