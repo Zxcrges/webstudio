@@ -92,6 +92,7 @@ img {
   font-weight: 500;
   letter-spacing: 0.28px;
   text-decoration: none;
+  gap: 10px;
 }
 .contact-item-link:hover {
   color: var(--accent-color);
@@ -289,8 +290,18 @@ img {
   padding-right: 32px;
   padding-left: 32px;
 }
+.company-item-link:hover,
+.company-item-link:focus {
+  border: 1px solid var(--accent-color);
+}
 .company-item-icon {
   fill: #AFB1B8;
+}
+.company-item-link:hover .company-item-icon {
+  fill: var(--accent-color);
+}
+.company-item-link:focus .company-item-icon {
+  fill: var(--accent-color);
 }
 .footer {
   background: var(--bg-color);
@@ -319,6 +330,10 @@ img {
     margin-bottom: 8px;
   display: inline-block;
   margin-right: 70px;
+}
+.address-item-link:hover, 
+.address-item-link:focus {
+  color: var(--accent-color);
 }
 .address-item-link:last-child {
   margin-bottom: 0;
