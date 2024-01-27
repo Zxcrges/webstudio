@@ -20,36 +20,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <a href="./index.html" class="link logo"><span class="logo-accent">Web</span>Studio</a>
-        <nav class="nav">
-          <ul class="list nav-list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-item-link">Студія</a>
-            </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-item-link">Портфоліо</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-item-link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list contacts-list">
-          <li class="contact-item">
-            <a href="mailto:info@devstudio.com" class="contact-item-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a href="tel:+380961111111" class="contact-item-link"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
+<header class="header">
+  <div class="container">
+    <a href="./index.html" class="link logo"><span class="logo-accent">Web</span>Studio</a>
+    <nav class="nav">
+      <ul class="list nav-list">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-item-link">Студія</a>
+        </li>
+        <li class="nav-item">
+          <a href="./portfolio.html" class="nav-item-link">Портфоліо</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-item-link">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="list contact-list">
+      <li class="contact-item">
+      </li>
+      <li class="contact-item">
+        <a href="mailto:info@devstudio.com" class="contact-item-link">
+          <svg class="contact-item-icon" width="16" height="12">
+            <use href="./images/symbol-defs.svg#icon-email"></use>
+          </svg>info@devstudio.com</a>
+      </li>
+      <li class="contact-item">
+        <a href="tel:+380961111111" class="contact-item-link">
+          <svg class="contact-item-icon" width="10" height="16">
+            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+          </svg>+38 096 111 11 11</a>
+      </li>
+    </ul>
+  </div>
+</header>
     <main class="main">
         <section class="projects">
           <div class="container">
@@ -198,21 +202,39 @@
     </main>
     <footer class="footer">
       <div class="container">
-          <a href="./index.html" class="link footer-logo"><span class="footer-logo-accent">Web</span>Studio</a>
+      <div class="footer-div">
+        <a href="./index.html" class="link footer-logo"><span class="footer-logo-accent">Web</span>Studio</a>
         <address class="address">
-          <a
-            href="https://goo.gl/maps/gxwUuq6DSH6itYMH8"
-            target="_blank"
-            class="address-item-link"
-            >м. Київ, пр-т Лесі Українки, 26</a
-          ><br />
-          <a href="mailto:info@devstudio.com" class="address-item-link"
-            >info@devstudio.com</a
-          ><br />
-          <a href="tel:+380961111111" class="address-item-link"
-            >+38 096 111 11 11</a
-          >
+          <a href="https://goo.gl/maps/gxwUuq6DSH6itYMH8"target="_blank"class="address-item-link">м. Київ, пр-т Лесі Українки, 26</a><br />
+          <a href="mailto:info@devstudio.com" class="address-item-link">info@devstudio.com</a><br />
+          <a href="tel:+380961111111" class="address-item-link">+38 096 111 11 11</a>
         </address>
+      </div>
+      <div class="social-media-div">
+      <p class="social-media-text">Приєднуйтесь</p>
+      <ul class="list social-media-list">
+        <li class="social-media-item">
+          <a href="" class="social-media-link">
+            <svg width="20" height="20" class="social-media-icon">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use></svg></a>
+        </li>
+        <li class="social-media-item">
+          <a href="" class="social-media-link">
+            <svg width="20" height="20" class="social-media-icon">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a>
+        </li>
+        <li class="social-media-item">
+          <a href="" class="social-media-link">
+            <svg width="20" height="20" class="social-media-icon">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a>
+        </li>
+        <li class="social-media-item">
+          <a href="" class="social-media-link">
+            <svg width="20" height="20" class="social-media-icon">
+              <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a>
+        </li>
+      </ul>
+      </div>
       </div>
     </footer>
   </body>

@@ -92,16 +92,19 @@ img {
   font-weight: 500;
   letter-spacing: 0.28px;
   text-decoration: none;
+  display: flex;
   gap: 10px;
+  align-items: center;
 }
-.contact-item-link:hover {
+.contact-item-link:hover,
+.contact-item-link:focus {
   color: var(--accent-color);
 }
 .contact-item-icon {
   fill: #757575;
 }
-.contact-item-icon:hover,
-.contact-item-icon:focus {
+.contact-item-link:hover .contact-item-icon, 
+.contact-item-link:focus .contact-item-icon {
   fill: var(--accent-color);
 }
 .hero {
