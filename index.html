@@ -387,11 +387,23 @@
     </footer>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button type=”button” class="btn" data-modal-close>
-              <svg width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-close"></use>
+            <button type=”button” class="modal-btn" data-modal-close>
+              <svg width="18" height="18" class="modal-svg">
+                <use href="./images/symbol-defs.svg#icon-modal-close"></use>
               </svg>
             </button>
+            <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="modal-form">
+              <p class="modal-subtitle">Ім'я</p>
+              <input class="modal-input" type="text" name="text" required>
+              <p class="modal-subtitle">Телефон</p>
+              <input class="modal-input" type="phone" name="phone" required>
+              <p class="modal-subtitle">Пошта</p>
+              <input class="modal-input" type="email" name="email" required>
+              <p class="modal-subtitle">Коментар</p>
+              <textarea class="modal-message" name="message" id="message" ></textarea>
+              <button class="modal-submit-btn" type="submit" placeholder="Введіть текст" maxlength="400">Send message</button>
+            </form>
           </div>
         </div>
         <script src="./js/modal.js"></script>
