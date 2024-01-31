@@ -362,47 +362,75 @@
       <p class="social-media-text">Приєднуйтесь</p>
       <ul class="list social-media-list">
         <li class="social-media-item">
-          <a href="" class="social-media-link">
+          <a href="https://www.instagram.com" class="social-media-link">
             <svg width="20" height="20" class="social-media-icon">
               <use href="./images/symbol-defs.svg#icon-instagram"></use></svg></a>
         </li>
         <li class="social-media-item">
-          <a href="" class="social-media-link">
+          <a href="https://twitter.com/?lang=ru" class="social-media-link">
             <svg width="20" height="20" class="social-media-icon">
               <use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a>
         </li>
         <li class="social-media-item">
-          <a href="" class="social-media-link">
+          <a href="https://de-de.facebook.com" class="social-media-link">
             <svg width="20" height="20" class="social-media-icon">
               <use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a>
         </li>
         <li class="social-media-item">
-          <a href="" class="social-media-link">
+          <a href="https://www.linkedin.com" class="social-media-link">
             <svg width="20" height="20" class="social-media-icon">
               <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a>
         </li>
       </ul>
+      </div>
+      <div class="footer-form-div">
+        <p class="footer-form-text">Підпишіться на розсилку</p>
+        <form class="footer-form">
+          <input type="email" name="email" placeholder="E-mail" class="footer-form-input">
+          <button type="submit" class="footer-form-btn">Підписатися</button>
+        </form>
       </div>
       </div>
     </footer>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button type=”button” class="modal-btn" data-modal-close>
-              <svg width="18" height="18" class="modal-svg">
+              <svg width="18" height="18" class="modal-close-svg">
                 <use href="./images/symbol-defs.svg#icon-modal-close"></use>
               </svg>
             </button>
             <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
             <form class="modal-form">
-              <p class="modal-subtitle">Ім'я</p>
-              <input class="modal-input" type="text" name="text" required>
-              <p class="modal-subtitle">Телефон</p>
-              <input class="modal-input" type="phone" name="phone" required>
-              <p class="modal-subtitle">Пошта</p>
-              <input class="modal-input" type="email" name="email" required>
-              <p class="modal-subtitle">Коментар</p>
-              <textarea class="modal-message" name="message" id="message" ></textarea>
-              <button class="modal-submit-btn" type="submit" placeholder="Введіть текст" maxlength="400">Send message</button>
+              <label class="modal-label">
+                Ім'я
+                <input class="modal-input" type="text" name="text" required>
+                <svg width="18" height="18" class="modal-svg">
+                  <use href="./images/symbol-defs.svg#icon-modal-person"></use>
+                </svg>
+              </label>
+              <label class="modal-label">
+                Телефон
+                <input class="modal-input" type="tel" name="phone" required>
+                <svg width="18" height="18" class="modal-svg">
+                  <use href="./images/symbol-defs.svg#icon-modal-phone"></use>
+                </svg>
+              </label>
+              <label class="modal-label">
+                Пошта
+                <input class="modal-input" type="email" name="email" required>
+                <svg width="18" height="18" class="modal-svg">
+                  <use href="./images/symbol-defs.svg#icon-modal-email"></use>
+                </svg>
+              </label>
+              <label class="modal-label">
+                Коментар
+                <textarea class="modal-message" name="message" id="message" placeholder="Введіть текст"></textarea>
+              </label>
+              <label class="modal-label-checkbox">
+                <input type="checkbox" class="modal-checkbox">Погоджуюся з розсилкою та приймаю
+                <a href="" class="modal-checkbox-link">Умови договору</a>
+              </label>
+              <button class="modal-submit-btn" type="submit" maxlength="400">Відправити</button>
             </form>
           </div>
         </div>
