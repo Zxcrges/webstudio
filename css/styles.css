@@ -87,6 +87,8 @@ img {
   margin-left: auto;
 }
 .contact-item-link {
+  display: flex;
+  align-items: center;
   color: #757575;
   font-size: 14px;
   font-weight: 500;
