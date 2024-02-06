@@ -77,9 +77,24 @@ img {
   font-weight: 500;
   letter-spacing: 0.28px;
   text-decoration: none;
+  position: relative;
 }
 .nav-item-link:hover {
   color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.current::after {
+  content: '';
+  display: block;
+  width: 102%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+  top: 44px;
 }
 .contact-list {
   display: flex;
