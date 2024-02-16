@@ -78,12 +78,17 @@ img {
   letter-spacing: 0.28px;
   text-decoration: none;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item-link:hover {
   color: var(--accent-color);
 }
 .current {
   color: var(--accent-color);
+}
+.current:hover::after {
+  transform: scale(1.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current::after {
   content: '';
@@ -112,6 +117,7 @@ img {
   display: flex;
   gap: 10px;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-item-link:hover,
 .contact-item-link:focus {
@@ -119,6 +125,7 @@ img {
 }
 .contact-item-icon {
   fill: #757575;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-item-link:hover .contact-item-icon, 
 .contact-item-link:focus .contact-item-icon {
@@ -289,9 +296,11 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .workers-soc-icon {
   fill: rgba(175, 177, 184, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .workers-icon-link:hover {
   background-color: var(--accent-color);
@@ -324,6 +333,7 @@ img {
   padding-bottom: 16px;
   padding-right: 32px;
   padding-left: 32px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .company-item-link:hover,
 .company-item-link:focus {
@@ -331,6 +341,7 @@ img {
 }
 .company-item-icon {
   fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .company-item-link:hover .company-item-icon {
   fill: var(--accent-color);
@@ -365,6 +376,7 @@ img {
     margin-bottom: 8px;
   display: inline-block;
   margin-right: 70px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-item-link:hover, 
 .address-item-link:focus {
@@ -407,6 +419,7 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link:hover,
 .social-media-link:focus {
@@ -442,6 +455,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 15px;
   width: 358px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-input:hover,
 .footer-form-input:focus {
@@ -464,6 +478,7 @@ img {
   padding-left: 28px;
   gap: 10px;
   padding-right: 28px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-btn::after {
   content: "";
@@ -525,6 +540,9 @@ img {
   right: 8px;
   top: 8px;
 }
+.modal-close-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-close-svg:hover,
 .modal-close-svg:focus {
   fill: var(--accent-color);
@@ -558,6 +576,7 @@ img {
   width: 100%;
   margin-top: 4px;
   outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-message {
   color: rgba(117, 117, 117, 0.50);
@@ -571,6 +590,7 @@ img {
   width: 448px;
   height: 96px;
   resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:hover,
 .modal-input:focus, .modal-message:hover {
@@ -578,10 +598,11 @@ img {
 }
 .modal-svg {
   position: absolute;
-    display: flex;
-    align-items: center;
-    bottom: 11px;
-    left: 12px;
+  display: flex;
+  align-items: center;
+  bottom: 11px;
+  left: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:hover + .modal-svg,
 .modal-input:focus + .modal-svg {
@@ -599,6 +620,7 @@ img {
   display: block;
   margin: 0 auto;
   padding: 10px 52px 10px 52px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-label-checkbox {
   color: #757575;
@@ -641,6 +663,9 @@ img {
   line-height: 1.62;
   letter-spacing: 0.48px;
   border: none;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-btn:hover {
   background: var(--accent-color);
@@ -689,6 +714,7 @@ img {
   display: block;
   border: 1px solid #EEE;
   background: #FFF;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects-link:hover,
 .projects-link:focus {
